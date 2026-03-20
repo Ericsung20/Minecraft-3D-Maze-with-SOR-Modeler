@@ -25,7 +25,7 @@ The project covers the full workflow from 3D model creation to real-time gamepla
 ## Tech Stack
 - C++
 - OpenGL
-- GLUT
+- GLUT / FreeGLUT
 - Computer Graphics
 
 ## Project Structure
@@ -36,6 +36,35 @@ This project includes:
 - texture and lighting systems
 - SOR model generation
 - mesh construction and editing tools
+
+## How to Run
+- Clone this repository or download the source code
+- Open the project in Visual Studio
+- Make sure OpenGL and GLUT / FreeGLUT are installed and configured correctly
+- Build the project
+- Run the executable
+
+## Requirements
+Before running the project, make sure the following are installed:
+
+- C++ compiler
+- OpenGL
+- GLUT / FreeGLUT
+- A development environment such as Visual Studio
+
+## FreeGLUT Setup Notes
+If FreeGLUT is not already configured on your system, you may need to:
+
+- install FreeGLUT
+- add the FreeGLUT header files to your compiler include path
+- link the required library files
+- place the necessary DLL file in the executable directory or system path
+
+Typical files include:
+
+- `GL/freeglut.h`
+- `freeglut.lib`
+- `freeglut.dll`
 
 ## Learning Outcomes
 Through this project, I practiced:
